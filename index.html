@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Header section -->
+    <header class="bg-blue-800 text-white">
+      <nav class="flex justify-between container mx-auto items-center p-2">
+        <!-- logo -->
+        <div class="text-3xl font-bold">IGHERE</div>
+        <!-- logo end -->
+
+        <!-- nav items -->
+        <ul class="flex gap-10">
+          <li><a class="hover:text-green-600" href="#About">About</a></li>
+          <li><a class="hover:text-green-600" href="#Projects">Projects</a></li>
+          <li><a class="hover:text-green-600" href="#Contact">Contact</a></li>
+        </ul>
+
+        <!-- nav items end -->
+      </nav>
+    </header>
+    <!-- End of header section -->
+    <!-- ##################### -->
+
+    <!-- HERO SECTION -->
+    <section
+      class="flex items-center justify-center flex-col lg:flex-row lg:gap-16 lg:my-16 gap-8 my-8"
+    >
+      <div>
+        <h1 class="text-[4rem] font-semibold">Hi i'm Ighere uyoyo</h1>
+        <p class="text-2xl text-blue-800">Welcome to my page.</p>
+      </div>
+
+      <div>
+        <img src="/undraw_add_notes_re_ln36.svg" alt="" />
+      </div>
+    </section>
+    <!-- END OF HERO SECTION -->
+    <!-- ################### -->
+
+    <!-- FEATUE SECTION -->
+    <section class="grid place-items-center bg-blue-800">
+      <h1 class="text[2.5rem] text-center my--11 text-2xl font-bold text-white">
+        FEATURE POSTS
+      </h1>
+
+      <section
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 place-items-center my-8 gap-4 max-w-[1000px] w-full"
+      >
+        <article class="card">
+          <div class="main-content">
+            <div class="header">
+              <span>Article on</span>
+              <span>29-June-2023</span>
+            </div>
+            <p class="heading">Different ways to use CSS in React</p>
+            <div class="categories">
+              <span>React</span>
+              <span>Css</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="main-content">
+            <div class="header">
+              <span>Article on</span>
+              <span>24-October-2023</span>
+            </div>
+            <p class="heading">Bootstrap or Tailwind? Which is best for you</p>
+            <div class="categories">
+              <span>Bootstrap?</span>
+              <span>Tailwind?</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="main-content">
+            <div class="header">
+              <span>Article on</span>
+              <span>15-January-2024</span>
+            </div>
+            <p class="heading">Everything i've discovered on HTML</p>
+            <div class="categories">
+              <span>Html</span>
+              <!-- <span>Css</span> -->
+            </div>
+          </div>
+        </article>
+      </section>
+    </section>
+    <!-- END OF FEATURE SECTION -->
+    <!-- ###################### -->
+
+    <!-- CATEGORIES SECTION -->
+    <section class="my-16">
+      <h2
+        class="text-[2.5rem] text-center my-11 text-2xl font-bold text-blue-800"
+      >
+        CATEGORIES
+      </h2>
+
+      <section class="flex justify-center flex-wrap gap-4">
+        <button class="button">Marketing</button>
+        <button class="button">Education</button>
+        <button class="button">Agriculture</button>
+        <button class="button">Economics</button>
+        <button class="button">Technology</button>
+        <button class="button">sports</button>
+      </section>
+    </section>
+    <!-- END OF CATEGORIES SECTION -->
+    <!-- ######################### -->
+
+    <!-- RECENT POST SECTION -->
+    <section class="grid place-items-center bg-blue-800">
+      <h2 class="text[2.5rem] text-center my--11 text-2xl font-bold text-white">
+        RECENT POSTS
+      </h2>
+      <section
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 place-items-centergap-5 max-w-[1000px] w-full"
+      ></section>
+      <div class="cards">
+        <div class="card red">
+          <p class="tip">New on javascript</p>
+          <p class="second-text">Article by John DOE <br />3 days ago</p>
+        </div>
+        <div class="card blue bg-blue-700">
+          <p class="tip">C++</p>
+          <p class="second-text">Article by Jane Smith <br />Yesterday</p>
+        </div>
+        <div class="card green">
+          <p class="tip">About react</p>
+          <p class="second-text">Article by Max Mustermann <br />2 weeks ago</p>
+        </div>
+      </div>
+    </section>
+    <!-- END OF RECENT POSTS SECTION -->
+    <!--############################  -->
+
+    <!-- SUBSCRIPION SECTION -->
+    <section>
+      <h1
+        class="text[2.5rem] text-center my-11 text-2xl font-bold text-blue-800"
+      >
+        SUBSCRIBE FOR MORE UPDATES
+      </h1>
+      <section class="flex justify-center">
+        <form class="form">
+          <span class="title">Subscribe.</span>
+          <p class="description">
+            Get more tech updates from us by subscribing to our page. Fill in
+            your details and lets get started.
+          </p>
+          <div>
+            <input
+              placeholder="Enter your email"
+              type="email"
+              name="email"
+              id="email-address"
+            />
+            <button type="submit">Subscribe</button>
+          </div>
+        </form>
+      </section>
+    </section>
+    <!-- END OF SUBSCRIPTION SECTION -->
+    <!-- ########################### -->
+
+    <!-- FOOTER SECTION -->
+    <section>
+      <footer
+        class="flex justify-center text-center bg-blue-800 text-white mt-10"
+      >
+        <div>
+          <div class="flex gap-4 items-center justify-center">
+            <a target="_blank" href="https://github.com/dashboard">
+              <i class="fa-brands fa-github"></i
+            ></a>
+            <a target="_blank" href="https://www.instagram.com/">
+              <i class="fa-brands fa-instagram"></i
+            ></a>
+            <a target="_blank" href="https://www.linkedin.com/feed/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+
+          <p>2024 Ighere uyoyo- all rights reserved</p>
+        </div>
+      </footer>
+    </section>
+    <!-- END OF FOOTER SECTION -->
+    <!-- ##################### -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/ed2f307fe6.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
